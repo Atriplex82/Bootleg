@@ -7,7 +7,7 @@ const fileupload = require("express-fileupload");
 const path = require("path");
 
 const url =
-  "mongodb+srv://admin:123456Test@cluster0.dhlaf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
+  "mongodb+srv://<username>:<password>@cluster0.dhlaf.mongodb.net/myFirstDatabase?retryWrites=true&w=majority";
 
 mongoose
   .connect(url, {
