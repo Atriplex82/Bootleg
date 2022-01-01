@@ -1,0 +1,15 @@
+<html>
+<p>
+  <a href="/upload">Upload File</a>
+  <a>
+<%for (let i in filelist) {%>
+  <li>  
+      <a href="/song/<%=filelist[i];%>">
+      <%= filelist[i];%>
+      </a>
+  </li>
+   <%} %>
+
+  </a>
+  </p>
+  </html>
